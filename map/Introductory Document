@@ -1,0 +1,58 @@
+
+PncMap Added Global Planning. ????
+
+
+Vision part need to be changed with the new map_struct.h (mainly or front/behind_lane_ids) !!!!!!!!!
+
+
+2019/10/14
+1. Changed "is_update" of pnc_route from "bool" to "int".
+
+2. Only send VALID routes to Planning Module.
+
+
+2019/10/22
+1. Added side slip.
+2. Added updateRouteProperties in Case 2.
+
+-----------------------------------------------------------------
+
+2019/10/30
+1. Used global_path.clear() after receiving object from Software team. 
+
+-----------------------------------------------------------------
+
+2019/11/5
+1. changed safe distance from 3 to 2.
+2. cleared everthing input from software before I assign them. 
+
+------------------------------------------------------------------
+
+2019/11/6
+1. Added logic: when gps_state continuously unstable for 30 seconds,
+		map module do nothing (send out empty outputs).
+
+------------------------------------------------------------------
+
+2019/11/7
+1. Version 2.04: (1) Added record program of input date into file every ten minutes; 
+		 (2) Added logic of backing car with "UPDATE_DISTANCE_BACK";
+
+2. Version 2.05: Added logic of "is_update" Setting while gps_state continuously unstable
+
+3. Used overlap map; changed a bit of codes in hdmap.cpp
+
+------------------------------------------------------------------
+
+2019/11/14
+1.fixed bug on backing car functionality. 
+2.upgrade version to 2.06.
+
+------------------------------------------------------------------
+
+
+2019/11/22
+1. fixed bug on comparing yaw.
+2. make it able to switch map on both inner and outer lane. (Added more 
+	matches in config file)
+

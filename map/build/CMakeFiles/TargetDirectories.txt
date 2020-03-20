@@ -1,0 +1,3 @@
+/home/shiny/map/build/CMakeFiles/edit_cache.dir
+/home/shiny/map/build/CMakeFiles/rebuild_cache.dir
+/home/shiny/map/build/CMakeFiles/map.dir
