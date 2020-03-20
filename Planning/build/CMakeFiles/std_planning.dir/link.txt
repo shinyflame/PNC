@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC  -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread  -shared -Wl,-soname,libstd_planning.so -o libstd_planning.so CMakeFiles/std_planning.dir/planning.cpp.o 

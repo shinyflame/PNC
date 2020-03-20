@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1502</width>
+    <height>889</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>20</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>forward</string>
+    </property>
+   </widget>
+   <widget class="QCustomPlot" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1141</width>
+      <height>831</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="auto_2">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>20</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>auto</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="LocationStatusValue">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>290</y>
+      <width>150</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="LocationStatusLabel">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>270</y>
+      <width>111</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>LocationStatus:</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="VehicleState">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>100</y>
+      <width>161</width>
+      <height>101</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ProjectionStatusLabel">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>330</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ProjectionStatus:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="ProjectionStatusValue">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>350</y>
+      <width>150</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="WidthStatusLabel">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>390</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>WidthStatus:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="WidthStatusValue">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>410</y>
+      <width>311</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RouteStatusLabel">
+    <property name="geometry">
+     <rect>
+      <x>1340</x>
+      <y>210</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>RouteStatus:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="RouteStatusValue">
+    <property name="geometry">
+     <rect>
+      <x>1340</x>
+      <y>230</y>
+      <width>150</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ModeLabel">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>210</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Mode:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="ModeValue">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>230</y>
+      <width>150</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IntersectionStatusLabel">
+    <property name="geometry">
+     <rect>
+      <x>1340</x>
+      <y>270</y>
+      <width>131</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>IntersectionStatus:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="IntersectionStatusValue">
+    <property name="geometry">
+     <rect>
+      <x>1340</x>
+      <y>290</y>
+      <width>150</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="SwitchStatusLabel">
+    <property name="geometry">
+     <rect>
+      <x>1340</x>
+      <y>330</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SwitchStatus:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="SwitchStatusValue">
+    <property name="geometry">
+     <rect>
+      <x>1340</x>
+      <y>350</y>
+      <width>150</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="FinalStatusLabel">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>450</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>FinalStatus:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="FinalStatusValue">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>470</y>
+      <width>150</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="CurrentMapIdLabel">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>590</y>
+      <width>131</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Current Map Id:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="CurrentMapIdValue">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>610</y>
+      <width>140</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="CurrentRoutesNumLabel">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>650</y>
+      <width>140</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Current Routes Num:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="CurrentRoutesNumValue">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>670</y>
+      <width>140</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="CurrentRoutesInfoLabel">
+    <property name="geometry">
+     <rect>
+      <x>1330</x>
+      <y>530</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Current Routes Info:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="CurrentSceneIdLabel">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>530</y>
+      <width>131</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Current Scene Id:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="CurrentSceneIdValue">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>550</y>
+      <width>140</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="CurrentRoutesInfoValue">
+    <property name="geometry">
+     <rect>
+      <x>1330</x>
+      <y>550</y>
+      <width>161</width>
+      <height>231</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="FileLoadStatusLabel">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>50</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>FileLoadStatus:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="FileLoadStatusValue">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>70</y>
+      <width>201</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>1340</x>
+      <y>80</y>
+      <width>141</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QPushButton" name="Fast_Forward">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>121</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Fast Forward</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Slow_Forward">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>121</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Slow Forward</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="record_speed">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>121</width>
+       <height>25</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1502</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QCustomPlot</class>
+   <extends>QWidget</extends>
+   <header>qcustomplot.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

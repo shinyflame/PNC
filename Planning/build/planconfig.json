@@ -1,0 +1,159 @@
+
+{
+"01.speed_lower_bound" : -0.1,
+"02.speed_upper_bound" : 8.0,
+"03.longitudinal_acceleration_lower_bound" : -4.5,
+"04.longitudinal_acceleration_upper_bound" : 4,
+"05.lateral_acceleration_bound": 4,
+
+"06.trajectory_time_length": 8,
+"07.polynomial_minimal_param" : 0.01,
+"08.num_velocity_sample" : 6,
+"09.min_velocity_sample_gap" : 0.4,
+"10.lattice_epsilon" : 0.00001,
+
+"11.time_min_density" : 1,
+"12.default_lon_buffer" : 5,
+"13.num_sample_follow_per_timestamp" : 3,
+
+"14.use_navigation_mode" : 0,
+"15.static_obstacle_speed_threshold" : 0.5,
+"16.virtual_stop_wall_height" : 2,
+"17.default_reference_line_width" : 3,
+"18.trajectory_time_resolution" : 0.1,
+"19.bound_buffer" : 0.1,
+"20.nudge_buffer" : 0.2,
+"21.lateral_optimization" : false,
+"22.max_s_lateral_optimization": 50.0 ,
+"23.default_delta_s_lateral_optimization" : 2.0 ,
+
+"24.lattice_stop_buffer":0.2,
+
+"25.enable_auto_tuning": 0,
+"26.decision_horizon":12,
+"27.trajectory_space_resolution":1.0,
+
+"28.weight_lon_objective":18.0,
+"29.weight_lon_jerk":3.0,
+"30.weight_lon_collision":1.0,
+"31.weight_centripetal_acceleration":1.0,
+"32.weight_lat_offset":2.2,
+"33.weight_lat_comfort":2.0,
+
+"34.lat_offset_bound":3.0,
+
+"35.weight_opposite_side_offset":1.0,
+"36.weight_same_side_offset":1.0,
+
+"37.longitudinal_jerk_upper_bound":4.0,
+"38.longitudinal_jerk_lower_bound":-4.0,
+"39.lateral_jerk_bound":0.99,
+"40.weight_target_speed":1.0,
+"41.weight_dist_travelled":10.0,
+
+"42.lon_collision_cost_std":0.5,
+"43.lon_collision_yield_buffer":1.0,
+"44.lon_collision_overtake_buffer":5.0,
+"45.comfort_acceleration_factor":0.5,
+
+"46.lon_collision_buffer":1.0,
+"47.lat_collision_buffer":0.30,
+
+"48.kappa_bound":1.0,
+
+"49.enable_trajectory_stitcher":1,
+"50.replan_lateral_distance_threshold":5.0,
+"51.replan_longitudinal_distance_threshold":5.0,
+"52.enable_lag_prediction":1,
+"53.lag_prediction_min_appear_num":5,
+"54.lag_prediction_max_disappear_num":3,
+
+"55.look_forward_time_sec":8.0,
+"56.look_forward_short_distance":75.0,
+"57.look_forward_long_distance":125.0,
+"58.look_backward_distance":25.0,
+
+"59.enable_change_lane_decider":0,
+"60.virtual_stop_wall_length":0.1,
+"61.align_prediction_time":0,
+"62.max_collision_distance":0.1,
+"63.ignore_overlapped_obstacle":0,
+"64.enable_collision_detection":0,
+"65.prediction_message_history_limit":10,
+"66.perception_confidence_threshold":0.5,
+
+"67.lag_prediction_protection_distance":16.0,
+"68.cost_non_priority_reference_line":0.2,
+"69.planning_upper_speed_limit":6,
+
+"70.enable_backup_trajectory":0,
+"71.backup_trajectory_cost":1000,
+"72.use_planning_fallback":1,
+
+"73.planning_test_mode":0,
+
+"74.estimate_current_vehicle_state":1,
+"75.planning_loop_rate":10,
+
+"76.enable_record_debug":1,
+
+"77.publish_estop":0,
+"78.trajectory_time_high_density_period":1.0,
+"79.enable_stitch_last_trajectory":1,
+"80.enable_map_reference_unify":1,
+"81.max_stop_distance_obstacle":10.0,
+"82.min_stop_distance_obstacle":6.0,
+"83.st_max_t":8.0,
+"84.st_max_s":16.0,
+"85.max_stop_speed":0.2,
+"86.default_cruise_speed":1.51,
+"87.use_multi_thread_to_add_obstacles":0,
+"88.destination_check_distance":5.0,
+"89.destination_obstacle_id":0,
+"90.reckless_change_lane":0,
+"91.change_lane_success_freeze_time":3.0,
+"92.change_lane_fail_freeze_time":3.0,
+
+"93.segment_length":12.0,
+"94.interval_length":1.5,
+"95.discretion_length":0.1,
+
+"96.clean_max_dis":6.0 ,    
+"97.clean_max_width":3.0 ,      
+"98.clean_min_width": -2.0 ,     
+"99.clean_max_evaluate_width":3.0,
+"100.clean_ignore_dis": 1.2,       
+"101.clean_effect_dis":6.0,
+
+"102.ultra_front_safe_dis":  1.2,
+"103.laterl_front_safe_dis": 0.36,
+"104.laterl_back_safe_dis":  0.32,
+"105.ultra_back_safe_dis":   0.31,
+
+"106.weight_clean_garbage":  10,
+
+"107.planning_make_prediction_max_points_num": 20,
+"108.gps_status_max_still_time": 10.0,
+"109.ultrasonic_find_danger_min_still_time": 0.3,
+"110.enable_ploygon_checking":1,
+"111.enable_data_record":0,
+"112.enable_data_playback":1,
+"113.slide_trans_dis":0.04,
+"114.prediction_point_num":3,
+"115.sample_width":0.75,
+"116.max_angle_velocity":12.5,
+"117.max_beyond_side_buffer":0.25,
+"118.max_slide_gap":0.3,
+"119.cost_non_slide_reference_line":3.0,
+"120.default_slide_center_to_right_dis":0.75,
+"121.obstacle_filter_buffer":0.25,
+"122.ultra_stop_wait_time":0.6,
+"123.decider_sample_dis":8.0,
+"124.combine_stop_result_dis":2.5,
+"125.valid_stop_decider_dis":6.5,
+"126.valid_passing_obs_dis":5.0,
+"127.per_error_dis": -0.2
+
+
+
+}

@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC  -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread  -shared -Wl,-soname,libdepth.so -o libdepth.so CMakeFiles/depth.dir/std_planning.cpp.o 
